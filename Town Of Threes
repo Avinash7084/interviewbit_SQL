@@ -1,0 +1,3 @@
+SELECT TownName,Population
+FROM TOWNS
+where ID %3 = 0
