@@ -1,0 +1,3 @@
+select MARKS
+from STUDENTS
+order by MARKS DESC LIMIT 4,1
