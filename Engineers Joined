@@ -1,0 +1,7 @@
+# Given 2 tables ENGINEER and DATA, query the sum of Count of all the engineers whose Type is FrontEnd.
+
+
+SELECT SUM(count) as a
+FROM ENGINEER AS E 
+JOIN DATA AS D 
+ON E.ID = D.ID AND D.Type = 'FrontEnd'
