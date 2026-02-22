@@ -1,0 +1,9 @@
+# Given 2 tables ENGINEER and DATA, query for the total count of each Type in the ENGINEER table. Print the result in alphabetical order of the Type.
+
+
+SELECT SUM(Count) as A 
+FROM ENGINEER AS E 
+JOIN DATA AS D 
+ON E.ID = D.ID 
+GROUP BY Type
+ORDER BY Type
