@@ -1,0 +1,2 @@
+DELETE from STUDY WHERE Age >= 19 and Age <= 22;
+SELECT * FROM STUDY;
